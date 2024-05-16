@@ -80,3 +80,154 @@ footer p {
     width: 30px;
     height: 30px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #6ab7ff, #c792ea);
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+            margin: 20px auto;
+        }
+
+        .banner img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 15px;
+            background-color:  #6ab7ff; /* Added black background to logo */
+            padding: 5px; /* Added padding to ensure space around the logo */
+            border-radius: 50%; /* Made the logo circular */
+        }
+       
+
+        .banner h2 {
+            font-size: 2em;
+            margin: 10px 0;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .banner .semesters {
+            font-weight: bold;
+            color: #ffeb3b;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .banner img {
+                width: 100px;
+            }
+
+            .banner h2 {
+                font-size: 2.5em;
+            }
+
+            .banner p {
+                font-size: 1.4em;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .banner {
+                max-width: 800px;
+            }
+
+            .banner img {
+                width: 120px;
+            }
+
+            .banner h2 {
+                font-size: 3em;
+            }
+
+            .banner p {
+                font-size: 1.6em;
+            }
+        }
+     
+
+        /* Style for the form container */
+#branches-page {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the form header */
+#branches-page h2 {
+    margin-bottom: 20px;
+}
+
+/* Style for the form */
+#branch-form {
+    display: inline-block;
+}
+
+/* Style for the label */
+#branch-form label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Style for the select dropdown */
+#branch {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Style for the submit button */
+#branch-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+#branch-form button:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    #branches-page {
+        padding: 10px;
+    }
+    
+    /* Make the form display block for smaller screens */
+    #branch-form {
+        display: block;
+    }
+    
+    /* Center-align the form elements */
+    #branch-form label,
+    #branch {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    /* Adjust button padding for smaller screens */
+    #branch-form button {
+        padding: 8px 16px;
+    }
+}
