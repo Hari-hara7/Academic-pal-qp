@@ -231,3 +231,26 @@ footer p {
         padding: 8px 16px;
     }
 }
+
+.celebration-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeb3b;
+    border: 2px solid #ff9800;
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.emoji {
+    position: absolute;
+    top: -50px;
+    font-size: 30px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
