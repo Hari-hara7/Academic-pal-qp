@@ -235,11 +235,12 @@ footer p {
 .celebration-section {
     text-align: center;
     padding: 20px;
-    background-color: #ffeb3b;
-    border: 2px solid #ff9800;
+    background-color: #000000;
+    border: 2px solid #ffffff;
     position: relative;
     overflow: hidden;
-    font-size: 24px;
+    font-size: 20px;
+    color: #ffffff; /* Add this line */
 }
 
 .emoji {
